@@ -5,9 +5,7 @@ const person = {
 };
 console.log(person);
 
-const firstName = 'Michael';
-const lastName = ' Suh';
-const fullname = firstName + lastName;
+const fullname = person.firstName + ' ' + person.lastName;
 console.log("The person's name is:", fullname);
 
 person.job = 'Web Developer';
